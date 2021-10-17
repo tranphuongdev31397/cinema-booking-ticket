@@ -1,0 +1,37 @@
+.loader__container{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader__container img{
+    background-color: transparent;
+    width: 150px;
+    transform: rotate(-10deg);
+    animation: rotate 1.5s infinite;
+    animation-direction: alternate;
+    opacity: 1;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(10deg);
+        opacity: 1;
+    }
+    25%{
+        transform: rotate(-10deg);
+        opacity: .8;
+    }
+    50%{
+        transform: rotate(10deg);
+        opacity: 0.6;
+    }
+    75%{
+        transform: rotate(-10deg);
+        opacity: .4;
+    }
+    100%{
+        transform: rotate(10deg);
+        opacity: 0.2;
+    }
+   
+}

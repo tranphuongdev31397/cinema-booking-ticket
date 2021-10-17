@@ -1,0 +1,136 @@
+.moviedetail {
+    background-color: black;
+    padding: 100px 0;
+}
+.moviedetail__item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.moviedetail__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+.moviedetail__img {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+}
+.moviedetail__img:hover .btnPlay {
+    display: block;
+}
+.moviedetail__left .moviedetail__text {
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
+
+/*Tạo vòng tròn điểm*/
+.moviedetail__right {
+    flex-direction: column;
+}
+.circular {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+.circular .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(to bottom, #333, #333 50%, #333 75%);
+    z-index: 6;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: -40px 0 0 -40px;
+}
+.circular .number {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 10;
+    font-size: 25px;
+    font-weight: 600;
+}
+.circular .bar {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #e9ecef;
+    border-radius: 100%;
+}
+.circle .bar .progress {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    background: greenyellow;
+    position: absolute;
+    clip: rect(0px, 100px, 100px, 50px);
+}
+
+.moviedetail__row {
+    display: inline-block;
+    color: white;
+    width: 100%;
+}
+.moviedetail__row::after {
+    content: "";
+    display: table;
+}
+.moviedetail__row::before {
+    content: "";
+    display: table;
+}
+.moviedetail__row p {
+    float: left;
+    width: 50%;
+}
+.moviedetail__title {
+    font-weight: 600;
+    text-align: left;
+    color: white;
+}
+.moviedetail__content {
+    color: white;
+    text-align: left;
+}
+
+/* Reponsive here */
+@media screen and (max-width: 768px) {
+    .moviedetail .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 767.8px) {
+    .moviedetail .container {
+        display: unset;
+    }
+    .moviedetail__item {
+        display: none;
+    }
+
+    .moviedetail__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .moviedetail__img .btnPlay {
+        display: block;
+    }
+    .moviedetail__img img{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .moviedetail__info{
+        flex-direction: column;
+        margin: inherit 10px;
+    }
+}

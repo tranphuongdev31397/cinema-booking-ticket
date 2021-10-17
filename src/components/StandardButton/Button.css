@@ -1,0 +1,19 @@
+.basic-button{
+    margin-top: 20px;
+    width: 70px;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5%;
+    border: none;
+}
+
+.icon{
+    margin-right: 0px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    align-items: center;
+}

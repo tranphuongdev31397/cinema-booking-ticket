@@ -1,0 +1,38 @@
+.nav__pillItem {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    border-color:white
+}
+.nav__pillItem:active,
+.nav__pillItem:hover,
+.nav__pillItem:focus-visible,
+.nav__pillItem:focus {
+    font-size: 20px;
+    color: black;
+    border: none;
+    outline-offset: 0px;
+    outline: none;
+    border-color:white
+}
+.homenew .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fa5238;
+    font-size: 20px;
+    border: none;
+}
+.homenew .nav-tabs {
+    border: none;
+}
+.homenew .nav-tabs .nav-link{
+    border: none;
+}
+.homenew .tab-content {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+}

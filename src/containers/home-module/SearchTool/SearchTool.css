@@ -1,0 +1,71 @@
+.searchtool__box .dropdown__button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin: 20px 0px;
+    width: 100%;
+    display: block;
+    color: #000;
+    cursor: pointer;
+    width: 100%;
+    background-image: url(https://tix.vn/app/assets/img/icons/dropdown-icon.png );
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 20px;
+    border-right: 1px solid #ebebec;
+    margin-right: 7px;
+}
+.searchtool__box .dropdown-menu{
+    overflow-y: scroll;
+    max-height: 300px;
+    transform: none!important;
+    top: 45px!important;
+    left: -10px!important;
+    margin: 0;
+}
+
+.searchtool__box {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    padding:10px;
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    z-index: 1000;
+}
+.searchtool__item .dropdown-toggle::after {
+    display: none;
+}
+.searchtool__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    text-align: left;
+}
+.searchtool .searchtool__item .dropdown__button::after{
+    border-right: 1px solid #ebebec;
+    content:  '';
+}
+.searchtool__item:first-child{
+    width: 40%;
+}
+
+/* Reponsive here  */
+
+@media screen and (max-width:768px) {
+    .searchtool__box {
+        width: 97%;
+    }
+}

@@ -1,0 +1,1 @@
+export const FECTH_USER_PROFILE = 'FECTH_USER_PROFILE'

@@ -1,0 +1,14 @@
+.register .register__formControl{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.icon__modal{
+    font-size: 50px;
+    color: green;
+}
+.register .modal-body, .register .modal-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

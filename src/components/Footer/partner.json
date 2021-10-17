@@ -1,0 +1,148 @@
+{
+    "partner": [
+        {
+            "homeAddress": "https://www.cgv.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/cgv.png",
+            "title": "CGV"
+        },
+        {
+            "homeAddress": "http://bhdstar.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/bhd.png",
+            "title": "BHD"
+        },
+        {
+            "homeAddress": "https://www.galaxycine.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/galaxycine.png",
+            "title": "Galaxy"
+        },
+        {
+            "homeAddress": "https://www.cinestar.com.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/cinestar.png",
+            "title": "Cinestar"
+        },
+        {
+            "homeAddress": "https://www.lottecinemavn.com/",
+            "imgSrc": "https://s3img.vcdn.vn/123phim/2018/09/404b8c4b80d77732e7426cdb7e24be20.png",
+            "title": "Lotte Cinema"
+        },
+        {
+            "homeAddress": "",
+            "imgSrc": "",
+            "title": ""
+        },
+        {
+            "homeAddress": "https://www.megagscinemas.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/megags.png",
+            "title": "MegaGS"
+        },
+        {
+            "homeAddress": "https://www.betacineplex.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/bt.jpg",
+            "title": "Beta"
+        },
+        {
+            "homeAddress": "https://www.ddcinema.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/dongdacinema.png",
+            "title": "DDC"
+        },
+        {
+            "homeAddress": "https://touchcinema.com/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/TOUCH.png",
+            "title": "Touch Cinema"
+        },
+        {
+            "homeAddress": "https://cinemaxvn.com/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/cnx.jpg",
+            "title": "Cinemax"
+        },
+        {
+            "homeAddress": "",
+            "imgSrc": "",
+            "title": ""
+        },
+        {
+            "homeAddress": "https://www.cgv.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/cgv.png",
+            "title": "CGV"
+        },
+        {
+            "homeAddress": "http://bhdstar.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/bhd.png",
+            "title": "BHD"
+        },
+        {
+            "homeAddress": "https://www.galaxycine.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/galaxycine.png",
+            "title": "Galaxy"
+        },
+        {
+            "homeAddress": "https://www.cinestar.com.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/cinestar.png",
+            "title": "Cinestar"
+        },
+        {
+            "homeAddress": "https://www.lottecinemavn.com/",
+            "imgSrc": "https://s3img.vcdn.vn/123phim/2018/09/404b8c4b80d77732e7426cdb7e24be20.png",
+            "title": "Lotte Cinema"
+        },
+        {
+            "homeAddress": "",
+            "imgSrc": "",
+            "title": ""
+        },
+        {
+            "homeAddress": "https://www.megagscinemas.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/megags.png",
+            "title": "MegaGS"
+        },
+        {
+            "homeAddress": "https://www.betacineplex.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/bt.jpg",
+            "title": "Beta"
+        },
+        {
+            "homeAddress": "https://www.ddcinema.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/dongdacinema.png",
+            "title": "DDC"
+        },
+        {
+            "homeAddress": "https://touchcinema.com/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/TOUCH.png",
+            "title": "Touch Cinema"
+        },
+        {
+            "homeAddress": "https://cinemaxvn.com/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/cnx.jpg",
+            "title": "Cinemax"
+        },
+        {
+            "homeAddress": "",
+            "imgSrc": "",
+            "title": ""
+        }
+    ],
+    "mobileApp": [
+        {
+            "homeAddress": "https://apps.apple.com/vn/app/tix-%C4%91%E1%BA%B7t-v%C3%A9-nhanh-nh%E1%BA%A5t/id615186197",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/apple-logo.png",
+            "title": "Apple App"
+        },
+        {
+            "homeAddress": "https://play.google.com/store/apps/details?id=vn.com.vng.phim123",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/android-logo.png",
+            "title": "Android App"
+        }
+    ],
+    "social": [
+        {
+            "homeAddress": "https://www.facebook.com/tix.vn/",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/facebook-logo.png",
+            "title": "Facebook"
+        },
+        {
+            "homeAddress": "https://zalo.me/tixdatve",
+            "imgSrc": "https://tix.vn/app/assets/img/icons/zalo-logo.png",
+            "title": "Zalo"
+        }
+    ]
+}

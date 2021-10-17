@@ -1,0 +1,92 @@
+.navbar{
+    width: 100%;
+}
+.dropdown-toggle::after{
+    margin-left: 1.5rem;
+}
+.img__avatar{
+    height: auto;
+    width: 30px;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+.navbar__center{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.navbar {
+    box-shadow: 0 0 15px rgb(0 0 0 / 30%)
+}
+.navbar-light{
+    background-color: rgba(255,255,255,.95)!important;
+}
+.navbar .login__button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0;
+}
+.navbar .login__button span{
+    line-height: 35px;
+}
+
+/* Reponsive here */
+
+/* Ipad(768px -> 1200px ) */
+.navbar .navbar__toggleM{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    z-index: 10;
+}
+.navbar .navbar__collapse .collapse__container{
+    background: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    height:100%;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    transition: 0s;
+    display: none;
+}
+.navbar__collapse .collapse__board{
+    position: fixed;
+    top:0;
+    right: -70%;
+    background: white;
+    transition: all .4s;
+    width: 70%;
+    height: 100%;
+}
+.navbar__collapse.show .collapse__board{
+    right: 0;
+}
+.navbar__collapse.show .collapse__container{
+    display: block;
+}
+.navbar__collapse .collapse__menu{
+    height: 100%;
+    width: 100%;
+    padding: 15px 20px;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        max-width: 768px;
+    }
+    .navbar__center{
+        display: none;
+    }
+}
+@media screen and (max-width:414px){
+    .navbar{
+        max-width: 414px;
+    }
+}
+/* @media screen and (max-width:1200px){
+    .navbar{
+        max-width: 1200px;
+    }
+} */

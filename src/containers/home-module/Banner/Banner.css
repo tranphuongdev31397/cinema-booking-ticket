@@ -1,0 +1,97 @@
+.carousel__img{
+    width: 100%;
+    height: 500px;
+    transform: scale(1);
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-radius: 50%;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+
+.btnPlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    background:transparent;
+    border: none;
+    display: none;
+    transition: all .5s;
+    
+}
+
+.carousel-item:hover .btnPlay {
+    display: block;
+    
+}
+/* Customize slick-slider*/
+.carousel .slick-dots {
+    bottom: 100px;
+    
+}
+.carousel .slick-dots li.slick-active button::before{
+    color: #fb4226;
+    opacity: 1;
+}
+.carousel .slick-dots li button::before{
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+}
+.slick-slider .slick-next {
+    right: 25px;
+    background-image: url(https://tix.vn/app/assets/img/icons/next-session.png);
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+}
+.slick-slider .slick-next:hover {
+    right: 25px;
+    background: url(https://tix.vn/app/assets/img/icons/next-session.png);
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;;
+}
+.slick-slider .slick-next::before, .slick-slider .slick-prev::before{
+    content: '';
+}
+.slick-slider .slick-prev{
+    left: 25px;
+    z-index: 1;
+    background-image: url(https://tix.vn/app/assets/img/icons/back-session.png);
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+}
+.slick-slider .slick-prev:hover{
+    left: 25px;
+    z-index: 1;
+    background-image: url(https://tix.vn/app/assets/img/icons/back-session.png);
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+/* Reponsive here */
+
+@media screen and (max-width:414px) {
+    .carousel__container.carousel{
+        display: none;
+    }
+}

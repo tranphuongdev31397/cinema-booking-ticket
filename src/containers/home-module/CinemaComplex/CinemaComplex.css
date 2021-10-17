@@ -1,0 +1,59 @@
+.cinecomplex__board {
+    border: 1px solid #ebebec;
+    border-radius: 4px;
+}
+.cinecomplex__board .col-3 {
+    border-left: 1px solid #ebebec;
+    border-right: 1px solid #ebebec;
+}
+.cinecomplex__board .nav-pills .nav-link.active,
+.cinecomplex__board .nav-pills .nav-link {
+    background-color: transparent;
+    border-bottom: 1px solid #ebebec;
+    color: black;
+    opacity: 0.5;
+    width: 100%;
+    text-align: center;
+}
+.cinecomplex__board .nav-pills .nav-link:hover {
+    opacity: 1;
+}
+.cinecomplex__board .nav-pills .nav-link.active {
+    opacity: 1;
+}
+.cinecomplex__board a:hover {
+    color: black;
+}
+.cinecomplex__text {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+}
+.text-xs {
+    font-size: 12px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    text-align: left
+}
+.text-link{
+    display: block;
+    text-align: left;
+    color:red
+}
+a:hover.text-link{
+    display: block;
+    text-align: left;
+    color:red
+}
+
+/* Reponsive here */
+
+@media screen and (max-width:768px) {
+    .cinecomplex_container.container {
+        max-width: 100%;
+    }
+}

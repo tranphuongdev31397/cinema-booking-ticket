@@ -1,0 +1,1 @@
+export const TIX_REGISTER = 'TIX_REGISTER'
